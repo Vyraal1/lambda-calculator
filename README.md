@@ -22,10 +22,10 @@ In this project you will build out a calculator using React. You have been given
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd lambda-calculator`
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] CD into the project base directory `cd lambda-calculator`
 - [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -39,7 +39,7 @@ Follow these steps for completing your project.
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
 - [ ] Do your magic!
 
-# _Project - Lambda Calculator_
+## Project - Lambda Calculator
 
 **A job just came down from the Big Boss!**
 
@@ -48,17 +48,18 @@ Follow these steps for completing your project.
 - The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
 - The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
 
-## Directions
+### Directions
 
 Using the design file, build out your User Interface. Before you start, look through the app structure to see what components you have to work with, then you'll start by following the steps below.
 
-**STEP 1**
+#### STEP 1
 
 - You have been given a Data.js file that contains some arrays.
 - Find a way to bring (import) the data into the necessary files, but do not change the data.
 - Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
-**Step 2**
+#### Step 2
+
 Add the data to state like this:
 
 ```js
@@ -70,12 +71,12 @@ import { numbers } from '../path/to/data';
 const [numberState, setNumberState] = useState(numbers);
 ```
 
-**Step 3**
+#### Step 3
 
 - Map over the data and dynamically render components for each piece of data in the arrays.
 - You will need to import the component that you'll render in the map function.
 
-**STEP 4**
+#### STEP 4
 
 - Import the wrapper button components into `App.js`
 - Import the display components into `App.js` as well
@@ -119,6 +120,6 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 - STEP 5 from above
 - Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
-- Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
+- Finish styling all of the buttons and get your calculator to closely resemble the given design spec.
 - Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - Convert your CSS styling to use Sass/Scss
